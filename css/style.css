@@ -102,7 +102,7 @@ li>span{
 
 .bref p{
     text-align: justify;
-    padding: 1.5em .75em;
+    padding: 1.5em 1.5em;
     font-size: 80%;
     line-height: 1.5;
 }
@@ -201,6 +201,7 @@ word-wrap: break-work;
 .details p{
     font-size: 80%;
     line-height: 1.5;
+    padding-right: 1.5em
 }
 .espace{
     margin-bottom: .5em;
@@ -323,7 +324,7 @@ h2.espace{
         order:3;
     }
     .bref{
-        margin-top: 0;        
+        margin-top: 0;  
     }
     .loisir{
         padding-top:0;
