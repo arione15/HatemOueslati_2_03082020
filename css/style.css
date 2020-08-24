@@ -1,6 +1,5 @@
 body{
     background:#222222;
-
 }
 h1{
     color:#000;
@@ -10,8 +9,6 @@ h1{
 h2{
     text-transform: uppercase;
 }
-
-
 .titre{
     font-size: 3vw; /*pour avoir du texte qui s'adapte à la taille de l'écran*/
     font-weight: 700;
@@ -20,7 +17,6 @@ h2{
     text-transform: uppercase;
     margin-bottom: .3em;
 }
-
 .container{
     background:#fff;
     margin:0 auto;
@@ -33,7 +29,6 @@ h2{
     display: flex;
     justify-content:flex-start;
 }
-
 .photo{
     width:30%;
     background-color: #feca07;
@@ -54,16 +49,14 @@ img#photo{
     font-size:1em;
     padding-left: 2em;
     padding-top: 3em;
-
 }
 /*rubrique Contact*/
 .contact{
-    display: flex;
-    flex-direction: column;
-    width:100%;
-
+    display: inline-block;
+    float:left;
+    width:30%;
+    background-color: #feca07;
 }
-
 .rubrique{
     color: #feca07;
     background-color: #232323;
@@ -72,7 +65,6 @@ img#photo{
     padding-top: .5em;
     border-left: solid 1px #666666;
 }
-
 .contact ul li{
     line-height: 1em;
     padding: 0.3em .75em;
@@ -87,7 +79,6 @@ ul li:first-of-type{
 li>span{
     font-size: 75%;
 }
-
 .contact h1, .bref h1, .loisir h1{
     font-size: 1.1em;
     font-family: lato, sans-serif;
@@ -98,14 +89,13 @@ li>span{
     width: 30%;
     background-color: #feca07;
 }
-
 .bloc{
     display: inline-block;
     width:65%;
     float: right;
     margin-top: 1em;
-
 }
+
 /*************************************/
 /*rubriques bas*/
 /*************************************/
@@ -116,21 +106,17 @@ li>span{
     font-size: 80%;
     line-height: 1.5;
 }
-
 .loisir{
     padding-top:100%; /*pour faire que bigBloc occupe toute la hauteur de la page !!!!!!! mystère*/
     margin-bottom: 2em;
     width:100%;
     display: flex;
     flex-direction: column;
-
 }
-
 .icones{
     display: flex;
     justify-content: space-around;
     margin: auto 35px;
-
 }
 .icones img{
     flex: 0 1 auto;
@@ -140,12 +126,12 @@ li>span{
 .icones img:nth-of-type(-n+2){
     margin-right: 1em;
 }
+
 /*************************************/
 
 .droite{
     margin-left: 4.5em;
 }
-
 .droite p, .gauche p, .droite h3, .gauche h3{
     font-size: 80%;
     line-height: 1.5em;
@@ -153,22 +139,16 @@ li>span{
 
 /*min-width:max-content; /*empèche le retour à la ligne*/
 
-
 .personnes{
     display: flex;
     justify-content: flex-start;
     margin-top: 1em;
 }
-
-
-
-
 .underline {
     text-decoration: underline;
     text-decoration-color: #feca07;
     text-underline-position: under; /*pour abaisser le trait du souligné*/
 }
-
 .parties{
     display: flex;
     justify-content:flex-start;
@@ -199,9 +179,7 @@ word-wrap: break-work;
     justify-content:flex-start;
     margin-bottom: 2em;
     text-align:left;
-
 }
-
 .tab img {
     align-items: flex-start;
     width:.8em;
@@ -230,7 +208,6 @@ word-wrap: break-work;
 h2.espace{
     font-weight: bold;
 }
-
 
 /************************************/
 /*Media-Queries*/
@@ -271,10 +248,8 @@ h2.espace{
         margin-bottom: 0;
         padding-bottom: 1em;
         padding-top:8em; 
-
     }
 }
-
 
 /************************************/
 /*Affichage pour tablet-768 px*/
@@ -314,10 +289,8 @@ h2.espace{
         margin-bottom: 0;
         padding-bottom: 1em;
         padding-top:8em; 
-
     }
 }
-
 
 /************************************/
 /*Affichage pour Mobile L-425 px*/
@@ -344,12 +317,10 @@ h2.espace{
         padding:2em 1em;
         background-color: #3CB371;
         margin-top: 0;
-
     }
     .bigBloc{
         width:auto;
         order:3;
-
     }
     .bref{
         margin-top: 0;        
@@ -376,7 +347,6 @@ h2.espace{
 
         width:100%;
         background-color: #3CB371;
-
     }
     .icones{
         display: flex;
