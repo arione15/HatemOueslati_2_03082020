@@ -212,10 +212,10 @@ h2.espace{
 
 /************************************/
 /*Media-Queries*/
-/*Affichage pour laptop-1024 px*/
+/*Affichage pour laptop-1024 px et plus*/
 /************************************/
 
-@media screen and (max-width:1280px){
+@media screen and (min-width:1024px){
     .container{
         width:70%;
     }
@@ -294,16 +294,20 @@ h2.espace{
 }
 
 /************************************/
-/*Affichage pour Mobile L-425 px*/
+/*Affichage pour Mobile L-425 px et moins*/
 /************************************/
 
 @media screen and (max-width:425px){
+    body{
+        min-width:100vh; /*enlève marge noire sur la droite!!!*/
+    }
     .container{
         display: flex;
         flex-direction: column;
     }
     .tete{
-        width:100%;
+                width:100%;
+
     }
     img#photo {
         width:70%;
